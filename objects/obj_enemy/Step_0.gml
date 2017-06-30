@@ -8,6 +8,10 @@ if(place_meeting(x+hsp, y, obj_wall)) {
 	x += hsp;
 }
 
+if (sign(hsp) != 0) {
+	image_xscale = sign(hsp);
+}
+
 //Gap Detection
 if(!place_meeting(x+sprite_width, y+1, obj_wall)) {
 	enemy_dir *= -1;
