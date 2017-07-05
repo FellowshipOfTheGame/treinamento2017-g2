@@ -17,4 +17,9 @@ if (not dead) {
 	if(!place_meeting(x+sprite_width, y+1, obj_wall)) {
 		enemy_dir *= -1;
 	}
+	
+	if(place_meeting(x, y, obj_player)) { 
+		obj_player.sprite_index = spr_playerDead;
+		obj_player.dead = true;
+	}
 }

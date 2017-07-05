@@ -122,7 +122,7 @@
             "Key": "7308598e-d1ad-4f6b-96a3-79a15df4fc3f",
             "Value": {
                 "id": "d498de1b-2f94-42fd-8c91-53ef9e274277",
-                "resourcePath": "sprites\\spr_dead\\spr_dead.yy",
+                "resourcePath": "sprites\\spr_enemyDead\\spr_enemyDead.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -228,6 +228,14 @@
                 "id": "167de7ba-ce32-44f4-9ad7-9a32a2d45cef",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "dc5783c8-4815-418d-b01f-fb93f56bda72",
+            "Value": {
+                "id": "7fd720f8-1e5d-4a9c-984a-a2bf11263012",
+                "resourcePath": "sprites\\spr_playerDead\\spr_playerDead.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
