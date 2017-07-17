@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "45e57a7a-b9f0-4116-b6e2-76c917081151",
+            "Value": {
+                "id": "028f268b-a0f7-447c-b500-77df0fb29ee1",
+                "resourcePath": "objects\\obj_spike\\obj_spike.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4a2efbf3-65ae-4eaf-8879-48604cc358a2",
             "Value": {
                 "id": "701f7add-1c5d-4335-95f3-858ffd0de127",
@@ -99,6 +107,22 @@
             "Value": {
                 "id": "5e1ade10-f51d-406b-861f-2726b5b5c810",
                 "resourcePath": "sprites\\spr_wall\\spr_wall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "551f185e-502f-4ecc-9c5a-35e249a44564",
+            "Value": {
+                "id": "f0228fdf-4b1a-48ad-8f3c-80385b13a629",
+                "resourcePath": "sprites\\spr_spikeFall\\spr_spikeFall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5d49b3f2-07c3-4116-aff4-f29f2cc5823f",
+            "Value": {
+                "id": "c5219855-5b8b-47b2-893b-0e4618623589",
+                "resourcePath": "sprites\\spr_spike\\spr_spike.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -167,6 +191,14 @@
             }
         },
         {
+            "Key": "8c3a8a50-4a2a-4c06-861f-9b2d7579eb50",
+            "Value": {
+                "id": "dd53b7d4-1859-4c4d-aa2c-8fc94e130062",
+                "resourcePath": "objects\\obj_fakeWall\\obj_fakeWall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8e25953c-29fb-4642-9979-1ddeaa51e6f1",
             "Value": {
                 "id": "959453de-140d-434e-bd11-7e52dd4f6e12",
@@ -220,6 +252,14 @@
                 "id": "4027636e-0184-4e5e-9a32-edacc3ff3002",
                 "resourcePath": "views\\a6b59e8c-8349-4966-bec9-11bbeb7478bc.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "aa363610-ecba-4297-9aff-f69a8803a895",
+            "Value": {
+                "id": "1094fcde-727f-4359-90fc-e7f66408965a",
+                "resourcePath": "objects\\obj_spikeFall\\obj_spikeFall.yy",
+                "resourceType": "GMObject"
             }
         },
         {
