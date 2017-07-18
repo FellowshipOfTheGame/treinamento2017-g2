@@ -5,13 +5,13 @@
     "name": "obj_spike",
     "eventList": [
         {
-            "id": "50fb5feb-b5c0-433b-b314-19aa95f8f7eb",
+            "id": "ba012881-64bd-4e4a-a260-46273e4ad63d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "collisionObjectId": "023a1beb-2e73-44c4-adc5-ced57137e487",
             "enumb": 0,
-            "eventtype": 3,
+            "eventtype": 4,
             "m_owner": "45e57a7a-b9f0-4116-b6e2-76c917081151"
         }
     ],

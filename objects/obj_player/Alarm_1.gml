@@ -1,4 +1,6 @@
-/// @DnDAction : YoYo Games.Rooms.Restart_Room
+/// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
-/// @DnDHash : 7445EA30
-room_restart();
+/// @DnDHash : 598D37BD
+/// @DnDArgument : "code" "/// @description Restart room$(13_10)//room_restart();"
+/// @description Restart room
+//room_restart();

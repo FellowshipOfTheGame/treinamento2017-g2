@@ -1,21 +1,16 @@
 if (key_down) {
-	sprite_index = spr_playerCrouch;
-	if (!instance_exists(obj_hitboxCrouch)) {
-		with(instance_create_depth(x, y, 0, obj_hitboxCrouch)) {
+	sprite_index = spr_player_crouch;
+	if (!instance_exists(obj_hitbox_crouch)) {
+		with(instance_create_depth(x, y, 0, obj_hitbox_crouch)) {
 			image_xscale = other.image_xscale;
-		
-			with(instance_place(x, y, obj_enemy)) { 
-				obj_enemy.sprite_index = spr_enemyDead;
-				obj_enemy.dead = true;
-			}
-			with(instance_place(x, y, obj_doorNext)) {
-				room_goto_next();
-				instance_destroy(obj_hitboxCrouch);
-			}
-			with(instance_place(x, y, obj_doorPrevious)) {
-				room_goto_previous();
-				instance_destroy(obj_hitboxCrouch);
-			}
+		}
+		with(instance_place(x, y, obj_doorNext)) {
+			room_goto_next();
+			instance_destroy(obj_hitbox_crouch);
+		}
+		with(instance_place(x, y, obj_doorPrevious)) {
+			room_goto_previous();
+			instance_destroy(obj_hitbox_crouch);
 		}
 	}
 } else {
@@ -23,19 +18,14 @@ if (key_down) {
 	if (!instance_exists(obj_hitbox)) {
 		with(instance_create_depth(x, y, 0, obj_hitbox)) {
 			image_xscale = other.image_xscale;
-		
-			with(instance_place(x, y, obj_enemy)) { 
-				obj_enemy.sprite_index = spr_enemyDead;
-				obj_enemy.dead = true;
-			}
-			with(instance_place(x, y, obj_doorNext)) {
-				room_goto_next();
-				instance_destroy(obj_hitbox);
-			}
-			with(instance_place(x, y, obj_doorPrevious)) {
-				room_goto_previous();
-				instance_destroy(obj_hitbox);
-			}
+		}
+		with(instance_place(x, y, obj_doorNext)) {
+			room_goto_next();
+			instance_destroy(obj_hitbox_crouch);
+		}
+		with(instance_place(x, y, obj_doorPrevious)) {
+			room_goto_previous();
+			instance_destroy(obj_hitboxCrouch);
 		}
 	}
 }
