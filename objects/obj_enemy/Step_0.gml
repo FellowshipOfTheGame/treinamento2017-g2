@@ -20,6 +20,6 @@ if (not dead) {
 	
 	if(place_meeting(x, y, obj_player)) { 
 		obj_player.sprite_index = spr_playerDead;
-		obj_player.dead = true;
+		obj_player.state = player.dead;
 	}
 }

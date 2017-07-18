@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "00e4adad-52e3-4b29-a142-e9ba3c0865cc",
+            "Value": {
+                "id": "133f4e55-3338-4fdb-b847-115feb43618b",
+                "resourcePath": "scripts\\scr_st_player_dead\\scr_st_player_dead.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "023a1beb-2e73-44c4-adc5-ced57137e487",
             "Value": {
                 "id": "71e9dff8-2b60-46d9-8334-1317291395c3",
@@ -55,6 +63,22 @@
             }
         },
         {
+            "Key": "25642c2e-5cd8-45de-962a-1d7f3a03a4c3",
+            "Value": {
+                "id": "a2e769e2-2513-4ab2-b80e-845d37427db7",
+                "resourcePath": "sprites\\spr_hitboxCrouch\\spr_hitboxCrouch.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "29379493-23a4-412a-b080-6ab9ceb52f5a",
+            "Value": {
+                "id": "84fc0502-eb18-45bf-9518-f43abe981d37",
+                "resourcePath": "objects\\obj_hitboxCrouch\\obj_hitboxCrouch.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2ce1e9a2-2400-4ea3-9d79-b41d439d0412",
             "Value": {
                 "id": "fa0f018b-194b-4862-ab6d-35ed2749e0cc",
@@ -76,6 +100,14 @@
                 "id": "07025381-578e-4e18-9312-a2cb2d4b9cd9",
                 "resourcePath": "rooms\\rm_Game\\rm_Game.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "386a8ebe-8a81-4b08-8ced-9ffdadbc5d85",
+            "Value": {
+                "id": "bac91d16-3980-4cef-b883-7d98baf5bcd9",
+                "resourcePath": "scripts\\scr_st_player_gun\\scr_st_player_gun.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -191,6 +223,14 @@
             }
         },
         {
+            "Key": "8a076723-347d-4cad-bcaa-144022699db2",
+            "Value": {
+                "id": "4cac92c4-a336-4ecf-8034-4c1ea2ffeef4",
+                "resourcePath": "scripts\\scr_st_player_walk\\scr_st_player_walk.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8c3a8a50-4a2a-4c06-861f-9b2d7579eb50",
             "Value": {
                 "id": "dd53b7d4-1859-4c4d-aa2c-8fc94e130062",
@@ -204,6 +244,14 @@
                 "id": "959453de-140d-434e-bd11-7e52dd4f6e12",
                 "resourcePath": "views\\8e25953c-29fb-4642-9979-1ddeaa51e6f1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9406d93f-a48d-4580-b28b-d3dc3406cbd6",
+            "Value": {
+                "id": "7392e1d4-5f1d-4591-b782-26de64c2f49d",
+                "resourcePath": "scripts\\scr_st_player_melee\\scr_st_player_melee.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -279,11 +327,35 @@
             }
         },
         {
+            "Key": "cc8a8419-db8e-4315-b485-f42d60ecbb16",
+            "Value": {
+                "id": "01e08b02-f8fe-4f16-80fd-d5e375dd67b1",
+                "resourcePath": "sprites\\spr_playerCrouch\\spr_playerCrouch.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "167de7ba-ce32-44f4-9ad7-9a32a2d45cef",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d4aab4d0-2b0f-4193-b21a-0bd71e0b813d",
+            "Value": {
+                "id": "e96d927b-2455-4c07-a8a3-83f7a2c80d87",
+                "resourcePath": "scripts\\scr_st_player_jump\\scr_st_player_jump.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d6731e06-66a4-4f38-80b9-e8f7c214cbd1",
+            "Value": {
+                "id": "46c31b91-d7d3-433f-a5c4-88b2eb3a31db",
+                "resourcePath": "scripts\\scr_st_player_idle\\scr_st_player_idle.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -344,7 +416,12 @@
         }
     ],
     "script_order": [
-        
+        "00e4adad-52e3-4b29-a142-e9ba3c0865cc",
+        "d6731e06-66a4-4f38-80b9-e8f7c214cbd1",
+        "8a076723-347d-4cad-bcaa-144022699db2",
+        "9406d93f-a48d-4580-b28b-d3dc3406cbd6",
+        "d4aab4d0-2b0f-4193-b21a-0bd71e0b813d",
+        "386a8ebe-8a81-4b08-8ced-9ffdadbc5d85"
     ],
     "tutorial": ""
 }
