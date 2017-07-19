@@ -1,9 +1,5 @@
 /// @description Initialize Variables
 
-// State
-type = enemy.gap_detec;
-dead = false;
-
 // Horizontal Movement
 hsp = 0;
 hsp_max = 28;
@@ -16,11 +12,15 @@ grav = .9;
 
 // Attack Jump Perimeter
 jumpheight = -12;
-perimeter = 200;
+perimeter = 160;
 allow_jump = true;
 
 enum enemy {
-	gap_detec,
+	idle,
+	walk,
 	jump,
 	dead
 }
+
+// State
+state = enemy.idle;
