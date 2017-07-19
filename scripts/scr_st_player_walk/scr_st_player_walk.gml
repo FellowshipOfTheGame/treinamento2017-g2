@@ -20,13 +20,13 @@ if (key_up and place_meeting(x, y+1, obj_wall)) {
 	state = player.jump;
 }
 
-if(key_space) {
-	switch(act_weapon) {
-		case 0:
+switch(act_weapon) {
+	case 0:
+		if(key_space)
 			state = player.melee;
-		break;
-		case 1:
+	break;
+	case 1:
+		if(key_space)
 			state = player.gun;
-		break;
-	}
+	break;
 }
