@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "7bf56f35-1d46-4a0f-a59d-83c6fd8c38da",
+            "Value": {
+                "id": "13e107f6-0680-4ac2-ba00-7a3fcb16435c",
+                "resourcePath": "scripts\\scr_st_player_steampack\\scr_st_player_steampack.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7d2c1e1c-937d-4e7b-98c0-d35107aad242",
             "Value": {
                 "id": "f1e8eec0-d51b-4007-8ee0-1168d4d8586b",
@@ -434,10 +442,11 @@
     "script_order": [
         "d6731e06-66a4-4f38-80b9-e8f7c214cbd1",
         "8a076723-347d-4cad-bcaa-144022699db2",
-        "9406d93f-a48d-4580-b28b-d3dc3406cbd6",
+        "00e4adad-52e3-4b29-a142-e9ba3c0865cc",
         "d4aab4d0-2b0f-4193-b21a-0bd71e0b813d",
+        "9406d93f-a48d-4580-b28b-d3dc3406cbd6",
         "386a8ebe-8a81-4b08-8ced-9ffdadbc5d85",
-        "00e4adad-52e3-4b29-a142-e9ba3c0865cc"
+        "7bf56f35-1d46-4a0f-a59d-83c6fd8c38da"
     ],
     "tutorial": ""
 }

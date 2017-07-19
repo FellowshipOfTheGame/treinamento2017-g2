@@ -57,6 +57,18 @@ else if(act_weapon < 0) {
 	act_weapon = 2;
 }
 
+switch(act_weapon) {
+	case 0:
+		equiped = "Meele";
+	break;
+	case 1:
+		equiped = "Gun";
+	break;
+	case 2:
+		equiped = "Steampack";
+	break;
+}
+
 switch (state) {
 	case player.idle:
 		scr_st_player_idle();		
@@ -64,20 +76,20 @@ switch (state) {
 	case player.walk:
 		scr_st_player_walk();
 	break;
-	case player.melee:
-		scr_st_player_melee();
-	break;
 	case player.dead:
 		scr_st_player_dead();
 	break;
 	case player.jump:
 		scr_st_player_jump();
 	break;
+	case player.melee:
+		scr_st_player_melee();
+	break;
 	case player.gun:
 		scr_st_player_gun();
-		break;
+	break;
 	case player.steampack:
-		//scr_st_player_steampack()
+		scr_st_player_steampack();
 	break;
 }
 
@@ -85,3 +97,4 @@ if(not reset){
 	alarm[1] = 10*room_speed;
 	reset = true;
 }
+

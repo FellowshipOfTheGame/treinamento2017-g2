@@ -20,13 +20,16 @@ if (key_up and place_meeting(x, y+1, obj_wall)) {
 	state = player.jump;
 }
 
-if(key_space) {
-	switch(act_weapon) {
-		case 0:
-			state = player.melee;
-		break;
-		case 1:
-			state = player.gun;
-		break;
-	}
+switch(act_weapon) {
+	case 0:
+		if(key_space) state = player.melee;
+	break;
+	case 1:
+		if(key_space) state = player.gun;
+	break;
+	case 2:
+		if(place_meeting(x, y+1, obj_wall)) jumps = jumps_max;
+		
+		if(key_up) state = player.steampack;
+	break;
 }
