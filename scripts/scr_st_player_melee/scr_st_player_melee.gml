@@ -21,11 +21,11 @@ if (key_down) {
 		}
 		with(instance_place(x, y, obj_doorNext)) {
 			room_goto_next();
-			instance_destroy(obj_hitbox_crouch);
+			instance_destroy(obj_hitbox);
 		}
 		with(instance_place(x, y, obj_doorPrevious)) {
 			room_goto_previous();
-			instance_destroy(obj_hitboxCrouch);
+			instance_destroy(obj_hitbox);
 		}
 	}
 }
