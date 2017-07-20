@@ -138,7 +138,7 @@
             "Key": "4a2efbf3-65ae-4eaf-8879-48604cc358a2",
             "Value": {
                 "id": "701f7add-1c5d-4335-95f3-858ffd0de127",
-                "resourcePath": "objects\\obj_doorPrevious\\obj_doorPrevious.yy",
+                "resourcePath": "objects\\obj_prev_door\\obj_prev_door.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -282,7 +282,7 @@
             "Key": "959fc181-3dd4-4bfc-9f31-63fb0b35c063",
             "Value": {
                 "id": "0913772a-140c-4089-bdf8-6b8c4d955942",
-                "resourcePath": "objects\\obj_doorNext\\obj_doorNext.yy",
+                "resourcePath": "objects\\obj_next_door\\obj_next_door.yy",
                 "resourceType": "GMObject"
             }
         },

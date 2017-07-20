@@ -1,8 +1,8 @@
 {
-    "id": "4a2efbf3-65ae-4eaf-8879-48604cc358a2",
+    "id": "959fc181-3dd4-4bfc-9f31-63fb0b35c063",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_doorPrevious",
+    "name": "obj_next_door",
     "eventList": [
         
     ],
