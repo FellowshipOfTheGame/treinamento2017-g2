@@ -40,7 +40,7 @@ switch(state) {
 			hsp = clamp(hsp, -hsp_max, hsp_max);
 			
 			// Gap Detection
-			if(vsp == 0 && !place_meeting(x+(-dir*sprite_width), y+1, obj_wall)) {
+			if(vsp == 0 && !place_meeting(x+(dir*sprite_width), y+1, obj_wall)) {
 				dir *= -1;
 			}
 		
