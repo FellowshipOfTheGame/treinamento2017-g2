@@ -59,14 +59,19 @@ switch(state) {
 			state = enemy.walk;
 		}
 	break;
-	case enemy.dead:	
+	case enemy.dead:
+		
 		hsp = 0;
 
 		if (vsp < 0) {
 			vsp = 0;
 		}
-		
+
 		sprite_index = spr_dead_enemy;
-		alarm[0] = 2*room_speed;
+		
+		if(destroy) { 
+			alarm[0] = 2*room_speed;
+			destroy = false;
+		}
 	break;
 }	

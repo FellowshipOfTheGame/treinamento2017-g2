@@ -1,5 +1,12 @@
 /// @description Initialize Variables
 
+enum enemy {
+	idle,
+	walk,
+	jump,
+	dead
+}
+
 // Horizontal Movement
 hsp = 0;
 hsp_max = 28;
@@ -15,12 +22,7 @@ jumpheight = -12;
 perimeter = 160;
 allow_jump = true;
 
-enum enemy {
-	idle,
-	walk,
-	jump,
-	dead
-}
-
 // State
 state = enemy.idle;
+num_lives = 1;
+destroy = true;
