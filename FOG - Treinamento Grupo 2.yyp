@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "2f70a89d-caf2-454c-9788-a19f1f68929b",
+            "Value": {
+                "id": "ee80e8b5-ec07-402b-a888-0afbb30bda39",
+                "resourcePath": "rooms\\rm_MiniBoss\\rm_MiniBoss.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "2fa97934-192c-4092-b847-379088a3c1b1",
             "Value": {
                 "id": "07025381-578e-4e18-9312-a2cb2d4b9cd9",
@@ -164,6 +172,22 @@
                 "id": "c5219855-5b8b-47b2-893b-0e4618623589",
                 "resourcePath": "sprites\\spr_spike\\spr_spike.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "63aa2f99-60a3-428d-97b7-cf8a3437c1cd",
+            "Value": {
+                "id": "cd0e94aa-b404-4016-ad04-ff98c6a891ba",
+                "resourcePath": "sprites\\spr_mini_boss2\\spr_mini_boss2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "69343406-cfe6-43d0-a956-654c378e38d9",
+            "Value": {
+                "id": "e3747363-e5d8-421c-938f-bdf7d6ef0c25",
+                "resourcePath": "objects\\obj_mini_boss2\\obj_mini_boss2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
