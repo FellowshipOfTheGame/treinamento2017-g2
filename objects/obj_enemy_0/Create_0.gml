@@ -4,7 +4,8 @@ enum enemy {
 	idle,
 	walk,
 	jump,
-	dead
+	dead,
+	chase
 }
 
 // Horizontal Movement
