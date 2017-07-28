@@ -1,17 +1,18 @@
 if (key_down) {
 	sprite_index = spr_player_crouch;
-	if (!instance_exists(obj_hitbox_crouch)) {
-		with(instance_create_depth(x, y, 0, obj_hitbox_crouch)) {
+	if (!instance_exists(obj_hitbox)) {
+		with(instance_create_depth(x, y, 0, obj_hitbox)) {
+			sprite_index = spr_hitbox_crouch;
 			image_xscale = other.image_xscale;
 		}
-		with(instance_place(x, y, obj_next_door)) {
+		/*with(instance_place(x, y, obj_next_door)) {
 			room_goto_next();
 			instance_destroy(obj_hitbox_crouch);
 		}
 		with(instance_place(x, y, obj_prev_door)) {
 			room_goto_previous();
 			instance_destroy(obj_hitbox_crouch);
-		}
+		}*/
 	}
 } else {
 	sprite_index = spr_player;
@@ -19,14 +20,14 @@ if (key_down) {
 		with(instance_create_depth(x, y, 0, obj_hitbox)) {
 			image_xscale = other.image_xscale;
 		}
-		with(instance_place(x, y, obj_next_door)) {
+		/*with(instance_place(x, y, obj_next_door)) {
 			room_goto_next();
 			instance_destroy(obj_hitbox);
 		}
 		with(instance_place(x, y, obj_prev_door)) {
 			room_goto_previous();
 			instance_destroy(obj_hitbox);
-		}
+		}*/
 	}
 }
 
