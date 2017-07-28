@@ -19,7 +19,7 @@ grav = .9;
 
 // Attack Jump Perimeter
 jumpheight = -12;
-perimeter = 160;
+perimeter = 200;
 allow_jump = true;
 
 // State
