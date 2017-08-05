@@ -2,7 +2,7 @@
     "id": "2fa97934-192c-4092-b847-379088a3c1b1",
     "modelName": "GMRoom",
     "mvc": "1.0",
-    "name": "rm_Game",
+    "name": "rm_Game0",
     "IsDnD": true,
     "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
@@ -26,7 +26,6 @@
         "c3eb01ae-79a8-4779-a054-d66ad76290cd",
         "e2b3921d-89f0-4fe1-8785-3f898afd7766",
         "b9e6b20b-bd1f-44e4-9b0f-041f6102f6e1",
-        "c2da7539-e541-4964-8967-4b15f1c7ba9b",
         "9e9a3922-7133-4f03-b72c-b1ce17f0d9c0",
         "77aa6694-1c36-4a07-ab21-9a03b37ed1a8",
         "07b76d5d-7ff8-4399-9847-a58cda6d87e0",
@@ -63,7 +62,8 @@
         "12226640-14e1-45ff-9537-49a6b776e0dd",
         "24283f87-69e0-4211-876d-728c625247c6",
         "3de320dd-056f-47e4-8826-eca67343a7e9",
-        "99d08ae7-0a5e-4698-bcfb-1a39ae761e78"
+        "99d08ae7-0a5e-4698-bcfb-1a39ae761e78",
+        "ced05564-2efa-4ae9-a9c0-92e7098690e3"
     ],
     "layers": [
         {
@@ -1411,16 +1411,16 @@
             "visible": true,
             "instances": [
                 {
-                    "id": "c2da7539-e541-4964-8967-4b15f1c7ba9b",
+                    "id": "ced05564-2efa-4ae9-a9c0-92e7098690e3",
                     "modelName": "GMRInstance",
                     "mvc": "1.0",
                     "ignore": false,
                     "inheritItemSettings": false,
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
-                    "name": "inst_3434937",
-                    "x": 64,
-                    "y": 192,
+                    "name": "inst_6749FB48",
+                    "x": 160,
+                    "y": 512,
                     "IsDnD": true,
                     "colour": {
                         "Value": 4294967295
@@ -1428,7 +1428,7 @@
                     "creationCodeFile": "",
                     "creationCodeType": "",
                     "inheritCode": false,
-                    "name_with_no_file_rename": "inst_3434937",
+                    "name_with_no_file_rename": "inst_6749FB48",
                     "objId": "959fc181-3dd4-4bfc-9f31-63fb0b35c063",
                     "rotation": 0,
                     "scaleX": 1,

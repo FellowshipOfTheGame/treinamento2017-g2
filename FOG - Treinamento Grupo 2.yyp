@@ -106,7 +106,7 @@
             "Key": "2fa97934-192c-4092-b847-379088a3c1b1",
             "Value": {
                 "id": "07025381-578e-4e18-9312-a2cb2d4b9cd9",
-                "resourcePath": "rooms\\rm_Game\\rm_Game.yy",
+                "resourcePath": "rooms\\rm_Game0\\rm_Game0.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -263,14 +263,6 @@
             }
         },
         {
-            "Key": "8d6bdb85-af29-4a4e-a92f-1a1810a634dc",
-            "Value": {
-                "id": "09e6c5e4-00fa-4a2b-889a-5e289968479b",
-                "resourcePath": "sprites\\spr_b2_object\\spr_b2_object.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "8e25953c-29fb-4642-9979-1ddeaa51e6f1",
             "Value": {
                 "id": "959453de-140d-434e-bd11-7e52dd4f6e12",
@@ -299,14 +291,6 @@
             "Value": {
                 "id": "0913772a-140c-4089-bdf8-6b8c4d955942",
                 "resourcePath": "objects\\obj_door\\obj_door.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "986d26b4-8e66-4842-87f8-bf105bcb8561",
-            "Value": {
-                "id": "13b8d691-104d-4866-934c-0359671829af",
-                "resourcePath": "objects\\obj_b2_object\\obj_b2_object.yy",
                 "resourceType": "GMObject"
             }
         },
