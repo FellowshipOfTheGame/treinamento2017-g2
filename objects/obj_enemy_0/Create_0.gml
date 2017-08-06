@@ -1,13 +1,5 @@
 /// @description Initialize Variables
 
-enum enemy {
-	idle,
-	walk,
-	jump,
-	dead,
-	chase
-}
-
 // Horizontal Movement
 hsp = 0;
 hsp_max = 28;
