@@ -2,7 +2,7 @@
     "id": "69343406-cfe6-43d0-a956-654c378e38d9",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_mini_boss2",
+    "name": "obj_miniboss_2",
     "eventList": [
         {
             "id": "4fc362b4-3a74-4060-9965-86647e5cc43b",
@@ -82,16 +82,6 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 3,
             "eventtype": 2,
-            "m_owner": "69343406-cfe6-43d0-a956-654c378e38d9"
-        },
-        {
-            "id": "733640a8-2f63-4a5c-95c9-8fcafcb283dd",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "1861aada-e52d-4e35-a4e3-68cec3b0c634",
-            "enumb": 0,
-            "eventtype": 4,
             "m_owner": "69343406-cfe6-43d0-a956-654c378e38d9"
         }
     ],

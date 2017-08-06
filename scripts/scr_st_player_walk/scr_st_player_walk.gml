@@ -25,11 +25,11 @@ switch(act_weapon) {
 		if(key_space) state = player.melee;
 	break;
 	case 1:
-		if(key_space) state = player.gun;
-	break;
-	case 2:
 		if(place_meeting(x, y+1, obj_wall)) jumps = jumps_max;
 		
 		if(key_up) state = player.steampack;
+	break;
+	case 2:
+		if(key_space) state = player.gun;
 	break;
 }

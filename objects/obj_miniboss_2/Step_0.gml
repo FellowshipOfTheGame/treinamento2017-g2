@@ -34,8 +34,9 @@ switch(state) {
 		
 		if(reload < 3){
 			if (canshoot){
-				with(instance_create_depth(x, y + random_range(-15,30), 0, obj_bullet_mini_boss)) {
+				with(instance_create_depth(x, y + random_range(-15,30), 0, obj_bullet)) {
 					hspeed *= other.image_xscale;
+					target_player = true;
 				}
 				canshoot = false;
 				reload ++;
@@ -74,7 +75,6 @@ switch(state) {
 		}
 	break;
 	case enemy.dead:
-		
 		hsp = 0;
 
 		if (vsp < 0) {
@@ -88,4 +88,4 @@ switch(state) {
 			destroy = false;
 		}
 	break;
-}	
+}

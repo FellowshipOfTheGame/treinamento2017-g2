@@ -60,6 +60,7 @@ switch(state) {
 		}
 	break;
 	case enemy.dead:
+
 		
 		hsp = 0;
 

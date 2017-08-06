@@ -82,7 +82,7 @@
             "Key": "25d20ce2-960e-4d21-8053-f0b6675495e1",
             "Value": {
                 "id": "1ecb9ba5-a559-4207-83b3-28c7b67d751a",
-                "resourcePath": "rooms\\rm_Boss_2\\rm_Boss_2.yy",
+                "resourcePath": "rooms\\rm_2_Boss\\rm_2_Boss.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -106,7 +106,7 @@
             "Key": "2f70a89d-caf2-454c-9788-a19f1f68929b",
             "Value": {
                 "id": "ee80e8b5-ec07-402b-a888-0afbb30bda39",
-                "resourcePath": "rooms\\rm_MiniBoss\\rm_MiniBoss.yy",
+                "resourcePath": "rooms\\rm_2_Miniboss\\rm_2_Miniboss.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -186,7 +186,7 @@
             "Key": "69343406-cfe6-43d0-a956-654c378e38d9",
             "Value": {
                 "id": "e3747363-e5d8-421c-938f-bdf7d6ef0c25",
-                "resourcePath": "objects\\obj_mini_boss2\\obj_mini_boss2.yy",
+                "resourcePath": "objects\\obj_miniboss_2\\obj_miniboss_2.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -330,7 +330,7 @@
             "Key": "98ef5434-8631-4a4a-8ce3-b68d9c571037",
             "Value": {
                 "id": "2b83459e-86d9-4a9b-aa4d-aafa5209aee7",
-                "resourcePath": "objects\\obj_b2_gate\\obj_b2_gate.yy",
+                "resourcePath": "objects\\obj_gate\\obj_gate.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -378,7 +378,7 @@
             "Key": "ae6f0caa-720d-48dc-a05a-284e28469b3a",
             "Value": {
                 "id": "6c8d36d9-318a-490d-b270-e79e9f6cdead",
-                "resourcePath": "objects\\obj_b2_bomb\\obj_b2_bomb.yy",
+                "resourcePath": "objects\\obj_bomb\\obj_bomb.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -412,14 +412,6 @@
                 "id": "b69ceab9-d362-477c-bceb-f5a4ca0e59a0",
                 "resourcePath": "views\\c3d637e3-a6d2-4394-9897-a4484288ce24.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "c6bd621f-0384-480c-8bfe-e691a8f982f5",
-            "Value": {
-                "id": "05fb063b-fd03-4252-8387-176cce8e31b5",
-                "resourcePath": "objects\\obj_bullet_mini_boss\\obj_bullet_mini_boss.yy",
-                "resourceType": "GMObject"
             }
         },
         {
