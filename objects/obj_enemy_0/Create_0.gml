@@ -17,5 +17,5 @@ allow_jump = true;
 
 // State
 state = enemy.idle;
-num_lives = 1;
+num_lives = 2;
 destroy = true;
