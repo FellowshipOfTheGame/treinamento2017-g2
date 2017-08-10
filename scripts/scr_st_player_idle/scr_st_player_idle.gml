@@ -1,9 +1,11 @@
 hsp = 0;
 
-if (key_down and place_meeting(x, y+1, obj_wall)) {
-	sprite_index = spr_player_crouch;
-} else {
-	sprite_index = spr_player;
+if(vulnerable) {
+	if (key_down and place_meeting(x, y+1, obj_wall)) {
+		sprite_index = spr_player_crouch;
+	} else {
+		sprite_index = spr_player;
+	}
 }
 
 if (key_up and place_meeting(x, y+1, obj_wall)) {
