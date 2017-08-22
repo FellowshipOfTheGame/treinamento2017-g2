@@ -119,7 +119,6 @@
             }
         },
         {
-<<<<<<< HEAD
             "Key": "2f70a89d-caf2-454c-9788-a19f1f68929b",
             "Value": {
                 "id": "ee80e8b5-ec07-402b-a888-0afbb30bda39",
@@ -128,16 +127,6 @@
             }
         },
         {
-            "Key": "2fa97934-192c-4092-b847-379088a3c1b1",
-            "Value": {
-                "id": "07025381-578e-4e18-9312-a2cb2d4b9cd9",
-                "resourcePath": "rooms\\rm_Game0\\rm_Game0.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
-=======
->>>>>>> 662db458ec2d4ad2330d2f8563e6d53e14d4930d
             "Key": "386a8ebe-8a81-4b08-8ced-9ffdadbc5d85",
             "Value": {
                 "id": "bac91d16-3980-4cef-b883-7d98baf5bcd9",
@@ -242,17 +231,18 @@
             }
         },
         {
-<<<<<<< HEAD
             "Key": "6ebf72b4-85d0-4c4d-918a-eaa7f1cfec51",
             "Value": {
                 "id": "6fb560aa-679e-4fb9-a53d-e6ee7d1586f7",
                 "resourcePath": "sprites\\spr_player_hurt\\spr_player_hurt.yy",
-=======
+				"resourceType": "GMSprite"
+			}
+		},
+		{
             "Key": "6e63fb62-be11-4540-b69c-e1128f799e51",
             "Value": {
                 "id": "8dea7851-4945-412a-9a5c-d79610c795f6",
                 "resourcePath": "sprites\\spr_dead_enemy_0\\spr_dead_enemy_0.yy",
->>>>>>> 662db458ec2d4ad2330d2f8563e6d53e14d4930d
                 "resourceType": "GMSprite"
             }
         },
@@ -441,7 +431,6 @@
             }
         },
         {
-<<<<<<< HEAD
             "Key": "ae6f0caa-720d-48dc-a05a-284e28469b3a",
             "Value": {
                 "id": "6c8d36d9-318a-490d-b270-e79e9f6cdead",
@@ -454,12 +443,14 @@
             "Value": {
                 "id": "41fd2358-2315-4dbd-a83d-3f7c8bba86d7",
                 "resourcePath": "sprites\\spr_boss_2\\spr_boss_2.yy",
-=======
+				"resourceType": "GMSprite"
+			}
+		},
+		{
             "Key": "afe54b1a-fe89-430f-8936-81b457a7c682",
             "Value": {
                 "id": "aaf9c3ed-d937-4775-a292-51f6a642047a",
                 "resourcePath": "sprites\\spr_arrow\\spr_arrow.yy",
->>>>>>> 662db458ec2d4ad2330d2f8563e6d53e14d4930d
                 "resourceType": "GMSprite"
             }
         },
