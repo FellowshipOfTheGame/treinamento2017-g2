@@ -65,8 +65,12 @@ switch(state) {
 		if (vsp < 0) {
 			vsp = 0;
 		}
-
-		sprite_index = spr_dead_enemy;
+		
+		if (sprite_index == spr_enemy_0) {
+			sprite_index = spr_dead_enemy_0;
+		} else {
+			sprite_index = spr_dead_enemy_1;
+		}
 		
 		if(destroy) { 
 			alarm[0] = 2*room_speed;
