@@ -18,8 +18,7 @@
         "7a2007a1-9822-4b65-b219-ff0f3197e940",
         "140b7168-fcb5-4b02-b01e-57f3ae88248d",
         "c6278434-8186-4b81-a0b2-7f2bf866ae7b",
-        "f0472706-3711-4363-81b3-171fabcf4740",
-        "2e9aacc8-ee07-43e2-9d56-f2bb0f231c29"
+        "f0472706-3711-4363-81b3-171fabcf4740"
     ],
     "layers": [
         {
@@ -310,30 +309,7 @@
             "userdefined_depth": false,
             "visible": true,
             "instances": [
-                {
-                    "id": "2e9aacc8-ee07-43e2-9d56-f2bb0f231c29",
-                    "modelName": "GMRInstance",
-                    "mvc": "1.0",
-                    "ignore": false,
-                    "inheritItemSettings": false,
-                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
-                    "m_serialiseFrozen": false,
-                    "name": "inst_1EA57E9A",
-                    "x": 512,
-                    "y": 608,
-                    "IsDnD": true,
-                    "colour": {
-                        "Value": 4294967295
-                    },
-                    "creationCodeFile": "",
-                    "creationCodeType": "",
-                    "inheritCode": false,
-                    "name_with_no_file_rename": "inst_1EA57E9A",
-                    "objId": "959fc181-3dd4-4bfc-9f31-63fb0b35c063",
-                    "rotation": 0,
-                    "scaleX": 1,
-                    "scaleY": 1
-                }
+                
             ]
         },
         {

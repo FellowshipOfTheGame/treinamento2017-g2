@@ -85,7 +85,7 @@ switch(state) {
 
 		sprite_index = spr_dead_mini_boss2;
 		
-		instance_create_depth(x,y,10,obj_next_door);
+		instance_create_depth(x,y,10,obj_door);
 		
 		if(destroy) { 
 			alarm[0] = 2*room_speed;
