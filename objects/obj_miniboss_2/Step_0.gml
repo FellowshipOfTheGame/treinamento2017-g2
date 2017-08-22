@@ -38,6 +38,7 @@ switch(state) {
 				with(instance_create_depth(x, y + random_range(-15,30), 0, obj_bullet)) {
 					hspeed *= other.image_xscale;
 					target_player = true;
+					//damage = 3;
 				}
 				canshoot = false;
 				reload ++;

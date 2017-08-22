@@ -15,7 +15,8 @@ jumpheight = -12;
 perimeter = 160;
 allow_jump = true;
 
-// State
+// Status
 state = enemy.idle;
-num_lives = 1;
+damage = 2;
+hp = 10;
 destroy = true;
