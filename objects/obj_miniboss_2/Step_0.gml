@@ -83,7 +83,6 @@ switch(state) {
 			vsp = 0;
 		}
 
-		sprite_index = spr_dead_mini_boss2;
 		
 		instance_create_depth(x,y,10,obj_door);
 		

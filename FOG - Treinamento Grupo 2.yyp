@@ -154,7 +154,7 @@
             "Key": "4bcdff82-a644-4d1f-be4d-3a8752d2f372",
             "Value": {
                 "id": "5e1ade10-f51d-406b-861f-2726b5b5c810",
-                "resourcePath": "sprites\\spr_wall\\spr_wall.yy",
+                "resourcePath": "sprites\\spr_tile_set\\spr_tile_set.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -163,6 +163,14 @@
             "Value": {
                 "id": "f0228fdf-4b1a-48ad-8f3c-80385b13a629",
                 "resourcePath": "sprites\\spr_fall_spike\\spr_fall_spike.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "59f05049-bdc3-464d-9fd1-c121ea9dc2be",
+            "Value": {
+                "id": "970c1bd1-7498-4d12-bcca-6f8b4b47d0ab",
+                "resourcePath": "sprites\\spr_fake_wall\\spr_fake_wall.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -231,14 +239,6 @@
             }
         },
         {
-            "Key": "7308598e-d1ad-4f6b-96a3-79a15df4fc3f",
-            "Value": {
-                "id": "d498de1b-2f94-42fd-8c91-53ef9e274277",
-                "resourcePath": "sprites\\spr_dead_enemy\\spr_dead_enemy.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "738885c6-6f7c-41ba-9bac-34c59b16a33d",
             "Value": {
                 "id": "73e8e799-be7d-4fdf-a89d-0d9ca1af651f",
@@ -260,14 +260,6 @@
                 "id": "13e107f6-0680-4ac2-ba00-7a3fcb16435c",
                 "resourcePath": "scripts\\scr_st_player_steampack\\scr_st_player_steampack.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "7c9cc20b-d8c1-4dea-9b16-f0466d8c8459",
-            "Value": {
-                "id": "9fb5e64b-2c88-41d9-824a-3900436f1e66",
-                "resourcePath": "sprites\\spr_dead_mini_boss2\\spr_dead_mini_boss2.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -492,6 +484,14 @@
                 "id": "74e39bb9-3a4a-4a01-8cc2-9a4a25979da1",
                 "resourcePath": "views\\ea4c8502-7df3-4b2d-9cc0-24cc04fa2523.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ebc18d51-1d9b-4e0b-9e62-a50b8cbad415",
+            "Value": {
+                "id": "5019363a-6124-4d2c-9c94-7f586525981d",
+                "resourcePath": "sprites\\spr_background\\spr_background.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
