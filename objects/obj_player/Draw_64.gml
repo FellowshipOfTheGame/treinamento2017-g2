@@ -6,9 +6,9 @@ switch (current) {
 	case game.play:
 		draw_text(room_width-42, 7, score);
 		draw_text(42, 7, string(secs div 3600) + ":" + string(secs div 60));
-		draw_text(42, room_height-26, "HP");
-		draw_healthbar(65, room_height-20, 250, room_height-10, (global.player_hp/max_hp)*100, c_black, c_red, c_lime, 0, true, false);
-		draw_text(300, room_height-26, equiped);
+		draw_text(42, room_height+6, "HP");
+		draw_healthbar(65, room_height+11, 250, room_height+21, (global.player_hp/max_hp)*100, c_black, c_red, c_lime, 0, true, false);
+		draw_text(300, room_height+6, equiped);
 	break;
 	case game.over:
 	
