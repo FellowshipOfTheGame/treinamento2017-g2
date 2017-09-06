@@ -1,12 +1,6 @@
 if(can_shoot){
-	if(key_down and place_meeting(x, y+1, obj_wall)){
-		with(instance_create_depth(x, y+15, 0, obj_bullet)) {
-			hspeed *= other.image_xscale;
-		}
-	}else{
-		with(instance_create_depth(x, y, 0, obj_bullet)) {
-			hspeed *= other.image_xscale;
-		}
+	with(instance_create_depth(x, y, 300, obj_bullet)) {
+		hspeed *= other.image_xscale;
 	}
 	can_shoot = false;
 	alarm[0] = 2*room_speed;

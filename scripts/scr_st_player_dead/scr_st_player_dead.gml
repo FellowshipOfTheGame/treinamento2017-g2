@@ -1,4 +1,4 @@
-sprite_index = spr_dead_player;
+image_index = 6;
 
 hsp = 0;
 

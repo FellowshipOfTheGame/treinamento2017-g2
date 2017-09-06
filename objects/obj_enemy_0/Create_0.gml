@@ -20,3 +20,4 @@ state = enemy.idle;
 damage = 2;
 hp = 10;
 destroy = true;
+hurt = false;

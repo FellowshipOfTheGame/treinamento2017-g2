@@ -24,6 +24,8 @@ y += vsp;
 
 switch(state) {
 	case enemy.idle:
+		image_index = 0;
+
 		hsp = 0;
 		
 		if (movespeed != 0) {
@@ -31,6 +33,15 @@ switch(state) {
 		}
 	break;
 	case enemy.walk:
+		if(hurt) {
+			if(floor(image_index) < 2 || floor(image_index) > 3)
+				image_index = 2;
+		}
+		else {
+			if(floor(image_index) >= 2)
+				image_index = 0;
+		}
+		
 		if(movespeed == 0) {
 			state = enemy.idle;
 		}
@@ -51,6 +62,15 @@ switch(state) {
 		}
 	break;
 	case enemy.jump:
+		if(hurt) {
+			if(floor(image_index) < 2 || floor(image_index) > 3)
+				image_index = 2;
+		}
+		else {
+			if(floor(image_index) >= 2)
+				image_index = 0;
+		}
+		
 		vsp = jumpheight;
 
 		if (movespeed == 0) {
@@ -59,17 +79,30 @@ switch(state) {
 			state = enemy.walk;
 		}
 	break;
+	case enemy.hurt:
+		if(floor(image_index) < 2 || floor(image_index) > 3)
+			image_index = 2;
+
+		if(place_meeting(x, y+1, obj_wall)) {
+			movespeed = 3;
+			dir = sign(x - obj_player.x);
+			
+			alarm[2] = 30;
+			hurt = true;
+			
+			state = enemy.jump;
+		}
+	break;
 	case enemy.dead:
+		if(floor(image_index) < 4)
+			image_index = 4;
+
 		hsp = 0;
 
 		if (vsp < 0) {
 			vsp = 0;
 		}
-		
-		
-		sprite_index = spr_dead_player;
-		
-		
+	
 		if(destroy) { 
 			alarm[0] = 2*room_speed;
 			destroy = false;
