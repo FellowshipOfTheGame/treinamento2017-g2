@@ -23,9 +23,8 @@ y += vsp;
 
 switch(state) {
 	case enemy.idle:
-		if(floor(image_index) == 3) {
+		if(floor(image_index) > 2)
 			image_index =  0;
-		}
 	
 		hsp = 0;
 		
@@ -55,9 +54,8 @@ switch(state) {
 		}
 	break;
 	case enemy.chase:
-		if(floor(image_index) == 3) {
+		if(floor(image_index) > 2)
 			image_index =  0;
-		}
 	
 		// Horizontal Movement
 		dir = sign(obj_player.x  - x);
@@ -71,10 +69,22 @@ switch(state) {
 			image_xscale = sign(hsp);
 		}
 	break;
-	case enemy.dead:
-		if(floor(image_index) < 5) {
-			image_index =  5;
+	case enemy.hurt:
+		if(floor(image_index) < 3 || floor(image_index) > 4)
+			image_index = 3;
+			
+		if(place_meeting(x, y+1, obj_wall)) {
+			movespeed = 3;
+			dir = sign(x - obj_player.x);
 		}
+		
+		if(hurt) vsp = jumpheight;
+		
+		hurt = false;
+ 	break;
+	case enemy.dead:
+		if(floor(image_index) < 5)
+			image_index =  5;
 		
 		hsp = 0;
 

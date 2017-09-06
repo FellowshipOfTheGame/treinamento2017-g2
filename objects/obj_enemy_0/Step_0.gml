@@ -84,7 +84,6 @@ switch(state) {
 			image_index = 2;
 
 		if(place_meeting(x, y+1, obj_wall)) {
-			movespeed = 3;
 			dir = sign(x - obj_player.x);
 			
 			alarm[2] = 30;

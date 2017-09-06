@@ -1,5 +1,7 @@
+image_index = 2;
+
 if(can_shoot){
-	with(instance_create_depth(x, y, 300, obj_bullet)) {
+	with(instance_create_depth(x+24, y, 300, obj_bullet)) {
 		hspeed *= other.image_xscale;
 	}
 	can_shoot = false;

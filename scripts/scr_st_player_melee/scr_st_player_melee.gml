@@ -1,4 +1,4 @@
-image_index = 0;
+image_index = 1;
 
 if (!instance_exists(obj_hitbox)) {
 	with(instance_create_depth(x, y, 0, obj_hitbox)) {
