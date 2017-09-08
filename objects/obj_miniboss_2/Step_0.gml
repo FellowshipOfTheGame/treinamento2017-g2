@@ -1,7 +1,6 @@
 /// @description Enemy patterns
 
 // Gravity
-
 if(!place_meeting(x, y+1, obj_wall)) {
 	vsp += grav;
 }
@@ -22,9 +21,11 @@ if(place_meeting(x, y+vsp, obj_wall)) {
 }
 y += vsp;
 
-
 switch(state) {
 	case enemy.idle:
+		if(floor(image_index) > 2)
+			image_index =  0;
+	
 		hsp = 0;
 		
 		if(obj_player.x - x > 0){ // -15
@@ -53,13 +54,14 @@ switch(state) {
 		}
 	break;
 	case enemy.chase:
+		if(floor(image_index) > 2)
+			image_index =  0;
+	
 		// Horizontal Movement
 		dir = sign(obj_player.x  - x);
 		hsp = dir * 2;
-			
-		
+
 		// Change Frontal Direction
-		
 		if (distance_to_object(obj_player) < perimeter){
 			state = enemy.idle;
 		}
@@ -67,25 +69,29 @@ switch(state) {
 			image_xscale = sign(hsp);
 		}
 	break;
-	case enemy.jump:
-		vsp = jumpheight;
-
-		if (movespeed == 0) {
-			state = enemy.idle;
-		} else {
-			state = enemy.walk;
+	case enemy.hurt:
+		if(floor(image_index) < 3 || floor(image_index) > 4)
+			image_index = 3;
+			
+		if(place_meeting(x, y+1, obj_wall)) {
+			movespeed = 3;
+			dir = sign(x - obj_player.x);
 		}
-	break;
+		
+		if(hurt) vsp = jumpheight;
+		
+		hurt = false;
+ 	break;
 	case enemy.dead:
+		if(floor(image_index) < 5)
+			image_index =  5;
+		
 		hsp = 0;
 
 		if (vsp < 0) {
 			vsp = 0;
 		}
 
-		
-		instance_create_depth(x,y,10,obj_door);
-		
 		if(destroy) { 
 			alarm[0] = 2*room_speed;
 			destroy = false;

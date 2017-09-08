@@ -1,14 +1,7 @@
-if (key_down) {
-	sprite_index = spr_player_crouch;
-	sprite_hitbox = spr_hitbox_crouch;
-} else {
-	sprite_index = spr_player;
-	sprite_hitbox = spr_hitbox;
-}
+image_index = 1;
 
 if (!instance_exists(obj_hitbox)) {
 	with(instance_create_depth(x, y, 0, obj_hitbox)) {
-		sprite_index = other.sprite_hitbox;
 		image_xscale = other.image_xscale;
 	}
 }

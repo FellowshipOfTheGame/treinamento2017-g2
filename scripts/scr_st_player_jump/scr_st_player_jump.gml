@@ -1,3 +1,5 @@
+image_index = 1;
+
 if(place_meeting(x, y+1, obj_wall)) {
 	vsp = jumpheight;
 	if (move == 0) {

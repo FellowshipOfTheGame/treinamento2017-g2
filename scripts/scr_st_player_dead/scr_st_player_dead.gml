@@ -1,4 +1,6 @@
-sprite_index = spr_dead_player;
+if(floor(image_index) < 7) {
+	image_index = 7;
+}
 
 hsp = 0;
 

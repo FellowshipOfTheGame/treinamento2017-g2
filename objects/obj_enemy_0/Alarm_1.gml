@@ -1,5 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
-/// @DnDHash : 0EF7274D
-/// @DnDArgument : "code" "/// @description Execute Code$(13_10)"
-/// @description Execute Code
+/// @DnDHash : 2EB37761
+/// @DnDArgument : "code" "///@description Turn enemy to idle$(13_10)$(13_10)state = enemy.idle;"
+///@description Turn enemy to idle
+
+state = enemy.idle;
