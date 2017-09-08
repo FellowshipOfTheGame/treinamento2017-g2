@@ -81,11 +81,15 @@ switch(state) {
 		if(hurt) vsp = jumpheight;
 		
 		hurt = false;
+		
+		if (num_lives <=0)
+			state = enemy.dead;
  	break;
 	case enemy.dead:
 		if(floor(image_index) < 5)
 			image_index =  5;
 		
+		canshoot = false;
 		hsp = 0;
 
 		if (vsp < 0) {
