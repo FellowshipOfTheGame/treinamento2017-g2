@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "75721557-2454-41cf-94a7-224ce5bb9534",
+            "Value": {
+                "id": "07eae5b7-0915-4eca-8b45-98e241467aaf",
+                "resourcePath": "sprites\\gamelogo\\gamelogo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "79f866e0-7d75-4370-8ff8-5e625e24b683",
             "Value": {
                 "id": "4426011e-97e7-4d7b-8297-6a3b91c54ab3",
