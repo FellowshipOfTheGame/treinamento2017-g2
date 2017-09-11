@@ -95,14 +95,14 @@ switch(state) {
 	case enemy.dead:
 		if(floor(image_index) < 4)
 			image_index = 4;
-
 		hsp = 0;
 
 		if (vsp < 0) {
 			vsp = 0;
 		}
 	
-		if(destroy) { 
+		if(destroy) {
+			audio_play_sound(morri, 1, false);
 			alarm[0] = 2*room_speed;
 			destroy = false;
 		}
