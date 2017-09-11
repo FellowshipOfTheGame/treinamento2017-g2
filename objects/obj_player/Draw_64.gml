@@ -51,6 +51,7 @@ if(current == game.menu) {
 				draw_text(481, 300, "Use as setas para se mover");
 				draw_text(481, 330, "Aperte a barra de espaco para pular");
 				draw_text(481, 360, "Troque seu equipamento usando Q e E");
+				draw_text(481, 390, "Aperte ESC para sair do jogo");
 		}
 		
 		if (show_credits) {
