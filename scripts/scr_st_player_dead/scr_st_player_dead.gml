@@ -10,6 +10,8 @@ if (vsp < 0) {
 
 global.doors_passed = 0;
 
+audio_stop_all();
+
 if(reset){
 	alarm[1] = 3*room_speed;
 	reset = false;
