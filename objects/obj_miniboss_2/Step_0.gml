@@ -1,5 +1,10 @@
 /// @description Enemy patterns
 
+var cam = view_camera[0]
+var cx = camera_get_view_x(cam)
+var cy = camera_get_view_y(cam)
+
+if(point_in_rectangle(x, y, cx, cy, cx + camera_get_view_width(cam), cy + camera_get_view_height(cam))){
 // Gravity
 if(!place_meeting(x, y+1, obj_wall)) {
 	vsp += grav;
@@ -96,9 +101,11 @@ switch(state) {
 			vsp = 0;
 		}
 
-		if(destroy) { 
+		if(destroy) {
+			audio_play_sound(ressuscita, 1, false);
 			alarm[0] = 2*room_speed;
 			destroy = false;
 		}
 	break;
+}
 }

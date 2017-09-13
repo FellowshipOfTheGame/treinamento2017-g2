@@ -98,6 +98,7 @@ switch(state) {
 		}
 	
 		if(destroy) { 
+			audio_play_sound(morri, 1, false);
 			alarm[0] = 2*room_speed;
 			destroy = false;
 		}
