@@ -18,6 +18,6 @@ allow_jump = true;
 // Status
 state = enemy.idle;
 damage = 2;
-hp = 10;
+hp = 6;
 destroy = true;
 hurt = false;

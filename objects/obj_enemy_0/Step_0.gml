@@ -54,11 +54,6 @@ switch(state) {
 			if(vsp == 0 && (!place_meeting(x+(dir*sprite_width), y+1, obj_wall) /*|| place_meeting(x+(-dir*sprite_width/2), y, obj_spike)*/)) {
 				dir *= -1;
 			}
-		
-			// Change Frontal Direction
-			if (sign(hsp) != 0) {
-				image_xscale = sign(hsp);
-			}
 		}
 	break;
 	case enemy.jump:
