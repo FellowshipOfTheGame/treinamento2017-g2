@@ -1,12 +1,6 @@
 /// @description Enemy patterns
 
 // Gravity
-var cam = view_camera[0]
-var cx = camera_get_view_x(cam)
-var cy = camera_get_view_y(cam)
-
-if(point_in_rectangle(x, y, cx, cy, cx + camera_get_view_width(cam), cy + camera_get_view_height(cam))){
-
 if(!place_meeting(x, y+1, obj_wall)) {
 	vsp += grav;
 }
@@ -94,6 +88,7 @@ switch(state) {
 	case enemy.dead:
 		if(floor(image_index) < 5)
 			image_index =  5;
+		
 		canshoot = false;
 		hsp = 0;
 
@@ -102,10 +97,8 @@ switch(state) {
 		}
 
 		if(destroy) { 
-			audio_play_sound(ressuscita, 1, false);
 			alarm[0] = 2*room_speed;
 			destroy = false;
 		}
 	break;
-}
 }
