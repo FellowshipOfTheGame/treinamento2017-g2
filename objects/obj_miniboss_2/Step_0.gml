@@ -43,6 +43,7 @@ switch(state) {
 			if (canshoot){
 				with(instance_create_depth(x, y + random_range(-15,30), 0, obj_bullet)) {
 					hspeed *= other.image_xscale;
+					image_xscale = other.image_xscale;
 					target_player = true;
 					//damage = 3;
 				}
@@ -104,6 +105,7 @@ switch(state) {
 		if(destroy) {
 			audio_play_sound(ressuscita, 1, false);
 			alarm[0] = 2*room_speed;
+			alarm[4] = -1;
 			destroy = false;
 		}
 	break;
