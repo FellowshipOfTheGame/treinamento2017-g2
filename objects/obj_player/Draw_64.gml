@@ -4,8 +4,7 @@ draw_set_font(font);
 
 if(current == game.menu) {
 		
-		
-		draw_set_halign(fa_center);
+	draw_set_halign(fa_center);
 	if (show_menu) {
 		draw_sprite(spr_gamelogo, -1, 481, 250);
 	
@@ -34,32 +33,32 @@ if(current == game.menu) {
 		draw_text(481, 510, "Sair");
 	}	
 	
-		if (show_controls) {
-				draw_text(481, 300, "Use as setas para se mover");
-				draw_text(481, 330, "Aperte ESPACO para usar o item equipado");
-				draw_text(481, 360, "Use seu steampack para chegar em lugares mais altos");
-				draw_text(481, 390, "Troque o item equipado usando Q e E");
-				draw_text(481, 420, "Aperte ESC para sair do jogo");
-		}
+	if (show_controls) {
+			draw_text(481, 300, "Use as setas para se mover");
+			draw_text(481, 340, "Aperte ESPACO para usar o item equipado");
+			draw_text(481, 380, "Use seu steampack para chegar em lugares mais altos");
+			draw_text(481, 420, "Troque o item equipado usando Q e E");
+			draw_text(481, 460, "Aperte ESC para sair do jogo");
+	}
 		
-		if (show_credits) {
-				draw_set_font(bigfont);
-				draw_text(481, 140, "Desenvolvimento & Arte");
-				draw_set_font(font);
-				draw_text(481, 200, "Eleazar Fernando");
-				draw_text(481, 230, "Fabiana Dalacqua");
-				draw_text(481, 260, "Gabriel Pupo");
+	if (show_credits) {
+			draw_set_font(bigfont);
+			draw_text(481, 140, "Desenvolvimento & Arte");
+			draw_set_font(font);
+			draw_text(481, 200, "Eleazar Fernando");
+			draw_text(481, 230, "Fabiana Dalacqua");
+			draw_text(481, 260, "Gabriel Pupo");
 				
-				draw_set_font(bigfont);				
-				draw_text(481, 340, "Musica");
-				draw_set_font(font);
-				draw_text(481, 400, "Pi");
+			draw_set_font(bigfont);				
+			draw_text(481, 340, "Musica");
+			draw_set_font(font);
+			draw_text(481, 400, "Pi");
 				
-				draw_set_font(bigfont);				
-				draw_text(481, 480, "Tutoria");
-				draw_set_font(font);
-				draw_text(481, 540, "William Ferreira");
-		}
+			draw_set_font(bigfont);				
+			draw_text(481, 480, "Tutoria");
+			draw_set_font(font);
+			draw_text(481, 540, "William Ferreira");
+	}
 } else if (current == game.play) {
 		draw_set_font(hudfont);
 		draw_text(40, 5, "HP");
