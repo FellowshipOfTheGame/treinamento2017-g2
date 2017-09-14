@@ -2,7 +2,7 @@
     "id": "69343406-cfe6-43d0-a956-654c378e38d9",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_miniboss_2",
+    "name": "obj_mini_boss_2",
     "eventList": [
         {
             "id": "4fc362b4-3a74-4060-9965-86647e5cc43b",

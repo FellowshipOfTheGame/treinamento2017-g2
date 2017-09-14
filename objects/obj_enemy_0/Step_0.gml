@@ -24,8 +24,14 @@ y += vsp;
 
 switch(state) {
 	case enemy.idle:
-		image_index = 0;
-
+		if(hurt) {
+			if(floor(image_index) < 2 || floor(image_index) > 3)
+				image_index = 2;
+		}
+		else {
+			image_index = 0;
+		}
+		
 		hsp = 0;
 		
 		if (movespeed != 0) {

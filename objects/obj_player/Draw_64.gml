@@ -7,7 +7,7 @@ if(current == game.menu) {
 		
 		draw_set_halign(fa_center);
 	if (show_menu) {
-		draw_sprite(gamelogo, -1, 481, 250);
+		draw_sprite(spr_gamelogo, -1, 481, 250);
 	
 		if (menu_opt == 0) {
 			draw_set_color(c_yellow);

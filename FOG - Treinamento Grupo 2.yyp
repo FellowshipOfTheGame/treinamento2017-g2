@@ -234,7 +234,7 @@
             "Key": "69343406-cfe6-43d0-a956-654c378e38d9",
             "Value": {
                 "id": "e3747363-e5d8-421c-938f-bdf7d6ef0c25",
-                "resourcePath": "objects\\obj_miniboss_2\\obj_miniboss_2.yy",
+                "resourcePath": "objects\\obj_mini_boss_2\\obj_mini_boss_2.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -282,7 +282,7 @@
             "Key": "75721557-2454-41cf-94a7-224ce5bb9534",
             "Value": {
                 "id": "07eae5b7-0915-4eca-8b45-98e241467aaf",
-                "resourcePath": "sprites\\gamelogo\\gamelogo.yy",
+                "resourcePath": "sprites\\spr_gamelogo\\spr_gamelogo.yy",
                 "resourceType": "GMSprite"
             }
         },
