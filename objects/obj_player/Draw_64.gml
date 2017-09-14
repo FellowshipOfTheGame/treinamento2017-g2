@@ -6,58 +6,64 @@ if(current == game.menu) {
 		
 	draw_set_halign(fa_center);
 	if (show_menu) {
-		draw_sprite(spr_gamelogo, -1, 481, 250);
+		draw_sprite(spr_gamelogo, -1, 480, 250);
 	
 		if (menu_opt == 0) {
 			draw_set_color(c_yellow);
 		}
 		else draw_set_color(c_white);
-		draw_text(481, 420, "Jogar");
+		draw_text(480, 420, "Jogar");
 		
 		if (menu_opt == 1) {
 			draw_set_color(c_yellow);
 		}
 		else draw_set_color(c_white);
-		draw_text(481, 450, "Controles");
+		draw_text(480, 450, "Instrucoes");
 		
 		if (menu_opt == 2) {
 			draw_set_color(c_yellow);
 		}
 		else draw_set_color(c_white);
-		draw_text(481, 480, "Creditos");
+		draw_text(480, 480, "Creditos");
 		
 		if (menu_opt == 3) {
 			draw_set_color(c_yellow);
 		}
 		else draw_set_color(c_white);
-		draw_text(481, 510, "Sair");
+		draw_text(480, 510, "Sair");
 	}	
 	
 	if (show_controls) {
-			draw_text(481, 300, "Use as setas para se mover");
-			draw_text(481, 340, "Aperte ESPACO para usar o item equipado");
-			draw_text(481, 380, "Use seu steampack para chegar em lugares mais altos");
-			draw_text(481, 420, "Troque o item equipado usando Q e E");
-			draw_text(481, 460, "Aperte ESC para sair do jogo");
+			draw_set_font(bigfont);
+			draw_text(480, 140, "Instrucoes");
+			
+			draw_set_font(font);
+			draw_set_halign(fa_left);
+			draw_text(200, 240, "o Use as setas para se mover");
+			draw_text(200, 280, "o Aperte ESPACO para usar o item equipado");
+			draw_text(200, 320, "o Use seu martelo para abrir portas");
+			draw_text(200, 360, "o Use seu steampack para chegar em lugares mais altos");
+			draw_text(200, 400, "o Troque o item equipado usando Q e E");
+			draw_text(200, 440, "o Aperte ESC para sair do jogo");
 	}
 		
 	if (show_credits) {
 			draw_set_font(bigfont);
-			draw_text(481, 140, "Desenvolvimento & Arte");
+			draw_text(480, 140, "Desenvolvimento & Arte");
 			draw_set_font(font);
-			draw_text(481, 200, "Eleazar Fernando");
-			draw_text(481, 230, "Fabiana Dalacqua");
-			draw_text(481, 260, "Gabriel Pupo");
+			draw_text(480, 200, "Eleazar Fernando");
+			draw_text(480, 230, "Fabiana Dalacqua");
+			draw_text(480, 260, "Gabriel Pupo");
 				
 			draw_set_font(bigfont);				
-			draw_text(481, 340, "Musica");
+			draw_text(480, 340, "Musica");
 			draw_set_font(font);
-			draw_text(481, 400, "Pi");
+			draw_text(480, 400, "Pi");
 				
 			draw_set_font(bigfont);				
-			draw_text(481, 480, "Tutoria");
+			draw_text(480, 480, "Tutoria");
 			draw_set_font(font);
-			draw_text(481, 540, "William Ferreira");
+			draw_text(480, 540, "William Ferreira");
 	}
 } else if (current == game.play) {
 		draw_set_font(hudfont);

@@ -13,9 +13,13 @@ alarm[2] = -1;
 global.doors_passed = 0;
 global.max_weapon = 1;
 
-audio_stop_all();
-
 if(reset){
+	
+	if(!obj_boss_2.has_passed) {
+		audio_stop_all();
+		audio_play_sound(morri, 1, false);
+	}
+	
 	alarm[1] = 3*room_speed;
 	reset = false;
 }
