@@ -84,7 +84,10 @@ switch(state) {
 			dir = sign(x - obj_player.x);
 		}
 		
-		if(hurt) vsp = jumpheight;
+		if(hurt){
+			vsp = jumpheight;
+			audio_play_sound(hurt2, 1, false);
+		}
 		
 		hurt = false;
 		
@@ -103,6 +106,7 @@ switch(state) {
 		}
 
 		if(destroy) {
+			audio_play_sound(morri, 1, false);
 			alarm[0] = 2*room_speed;
 			alarm[4] = -1;
 			destroy = false;
