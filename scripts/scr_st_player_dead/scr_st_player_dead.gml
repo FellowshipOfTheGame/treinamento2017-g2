@@ -13,6 +13,8 @@ alarm[2] = -1;
 global.doors_passed = 0;
 global.max_weapon = 1;
 
+audio_stop_all();
+
 if(reset){
 	alarm[1] = 3*room_speed;
 	reset = false;
