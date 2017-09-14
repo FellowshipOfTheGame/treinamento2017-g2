@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "2061bf36-063a-4244-981c-a28c22b77e64",
+            "Value": {
+                "id": "c5dab553-ea9e-47ec-ae65-015d86cc9621",
+                "resourcePath": "sounds\\hurt\\hurt.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "240db3ab-1d30-4121-8051-8806dee70697",
             "Value": {
                 "id": "88683b95-75e6-46a1-a615-aa537e6ede12",
@@ -92,14 +100,6 @@
                 "id": "8477d7c6-6ef3-45c7-84b7-013e65e9f050",
                 "resourcePath": "fonts\\bigfont\\bigfont.yy",
                 "resourceType": "GMFont"
-            }
-        },
-        {
-            "Key": "2976c847-463d-4261-b3c2-0d43c4678a93",
-            "Value": {
-                "id": "85a6df78-dbbe-4da0-b76a-71fe4b9674b7",
-                "resourcePath": "sounds\\aii\\aii.yy",
-                "resourceType": "GMSound"
             }
         },
         {
@@ -175,14 +175,6 @@
             }
         },
         {
-            "Key": "46fa3e68-dc17-4869-9aac-f68adda40b86",
-            "Value": {
-                "id": "3de9f75c-f525-4da2-ab4f-ed3d3b905b6e",
-                "resourcePath": "sounds\\morri\\morri.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "4bcdff82-a644-4d1f-be4d-3a8752d2f372",
             "Value": {
                 "id": "5e1ade10-f51d-406b-861f-2726b5b5c810",
@@ -196,6 +188,14 @@
                 "id": "f0228fdf-4b1a-48ad-8f3c-80385b13a629",
                 "resourcePath": "sprites\\spr_fall_spike\\spr_fall_spike.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "57f670e8-1c93-46d7-9af4-0cef20f7433d",
+            "Value": {
+                "id": "4a721cde-a9ed-4534-a98d-f351e74e7acd",
+                "resourcePath": "sounds\\morri\\morri.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -308,14 +308,6 @@
                 "id": "f1e8eec0-d51b-4007-8ee0-1168d4d8586b",
                 "resourcePath": "views\\7d2c1e1c-937d-4e7b-98c0-d35107aad242.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "853c3529-2fef-4b80-a5f6-eabdbea261df",
-            "Value": {
-                "id": "4505a7b2-ead8-4c21-874e-ca38019ffcee",
-                "resourcePath": "sounds\\ressuscita\\ressuscita.yy",
-                "resourceType": "GMSound"
             }
         },
         {
@@ -532,6 +524,14 @@
                 "id": "46c31b91-d7d3-433f-a5c4-88b2eb3a31db",
                 "resourcePath": "scripts\\scr_st_player_idle\\scr_st_player_idle.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "da19f81c-d626-420f-af59-f306d491b577",
+            "Value": {
+                "id": "1b826f0f-4862-4909-b67e-7fd84bfd6b29",
+                "resourcePath": "sounds\\hurt2\\hurt2.yy",
+                "resourceType": "GMSound"
             }
         },
         {

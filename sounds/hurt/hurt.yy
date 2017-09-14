@@ -1,8 +1,8 @@
 {
-    "id": "2976c847-463d-4261-b3c2-0d43c4678a93",
+    "id": "2061bf36-063a-4244-981c-a28c22b77e64",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "aii",
+    "name": "hurt",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,

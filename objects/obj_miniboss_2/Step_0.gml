@@ -103,7 +103,6 @@ switch(state) {
 		}
 
 		if(destroy) {
-			audio_play_sound(ressuscita, 1, false);
 			alarm[0] = 2*room_speed;
 			alarm[4] = -1;
 			destroy = false;
