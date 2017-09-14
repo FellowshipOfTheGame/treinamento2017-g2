@@ -86,9 +86,9 @@ switch(state) {
 
 		if(place_meeting(x, y+1, obj_wall)) {
 			dir = sign(x - obj_player.x);
-			
 			alarm[2] = 30;
 			hurt = true;
+			audio_play_sound(hurt2, 1 , false);
 			
 			state = enemy.jump;
 		}
