@@ -28,8 +28,14 @@ y += vsp;
 
 switch(state) {
 	case enemy.idle:
-		if(floor(image_index) > 2)
-			image_index =  0;
+		if(invencible) {
+			if(floor(image_index) < 3 || floor(image_index) > 5)
+				image_index = 3;
+		}
+		else {
+			if(floor(image_index) > 2)
+				image_index =  0;
+		}
 	
 		hsp = 0;
 		
@@ -60,8 +66,14 @@ switch(state) {
 		}
 	break;
 	case enemy.chase:
-		if(floor(image_index) > 2)
-			image_index =  0;
+		if(invencible) {
+			if(floor(image_index) < 3 || floor(image_index) > 5)
+				image_index = 3;
+		}
+		else {
+			if(floor(image_index) > 2)
+				image_index =  0;
+		}
 	
 		// Horizontal Movement
 		dir = sign(obj_player.x  - x);
@@ -76,8 +88,8 @@ switch(state) {
 		}
 	break;
 	case enemy.hurt:
-		if(floor(image_index) < 3 || floor(image_index) > 4)
-			image_index = 3;
+		if(floor(image_index) < 6 || floor(image_index) > 7)
+			image_index = 6;
 			
 		if(place_meeting(x, y+1, obj_wall)) {
 			movespeed = 3;
@@ -92,8 +104,8 @@ switch(state) {
 			state = enemy.dead;
  	break;
 	case enemy.dead:
-		if(floor(image_index) < 5)
-			image_index =  5;
+		if(floor(image_index) < 8)
+			image_index =  8;
 		
 		canshoot = false;
 		hsp = 0;
