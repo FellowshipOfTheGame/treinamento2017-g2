@@ -42,7 +42,7 @@ if(current == game.menu) {
 			draw_text(200, 240, "o Use as setas para se mover");
 			draw_text(200, 280, "o Aperte ESPACO para usar o item equipado");
 			draw_text(200, 320, "o Use seu martelo para abrir portas");
-			draw_text(200, 360, "o Use seu steampack para chegar em lugares mais altos");
+			draw_text(200, 360, "o Use seu jetpack para chegar em lugares mais altos");
 			draw_text(200, 400, "o Troque o item equipado usando Q e E");
 			draw_text(200, 440, "o Aperte ESC para sair do jogo");
 	}
